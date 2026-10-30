@@ -1,0 +1,12 @@
+{
+  "name": "test-static-html",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Aplicación web estática de prueba para el laboratorio de ClonVercel.",
+  "scripts": {
+    "test": "node tests/smoke.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
