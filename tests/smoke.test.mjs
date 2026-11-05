@@ -51,7 +51,8 @@ test("el HTML incluye la estructura semántica y los datos visibles", () => {
   assert.match(html, /<meta charset="UTF-8">/i);
   assert.match(html, /name="viewport"/);
   assert.match(html, /<title>ClonVercel Test Lab<\/title>/);
-  assert.match(html, /<h1>ClonVercel Test Lab<\/h1>/);
+  assert.match(html, /<h1>ClonVercel Test Lab — Versión 2<\/h1>/);
+  assert.match(html, /class="version-badge"[^>]*>V2<\/p>/);
   assert.match(html, /<header[\s>]/);
   assert.match(html, /<main[\s>]/);
   assert.match(html, /<footer[\s>]/);

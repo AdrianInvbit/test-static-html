@@ -76,6 +76,19 @@ h2 {
   max-width: 42rem;
 }
 
+.version-badge {
+  display: inline-block;
+  margin: 1rem 0 0;
+  padding: 0.3rem 0.65rem;
+  border: 1px solid var(--brand);
+  border-radius: 999px;
+  color: var(--brand-dark);
+  background: var(--brand-soft);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
 main {
   display: grid;
   gap: 1.25rem;
